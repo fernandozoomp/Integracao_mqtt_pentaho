@@ -4,7 +4,7 @@ Plug-in etapa do produtor MQTT para Pentaho
 
 ### Instalação ###
 
-1. Download ```Integracao mqtt - pentaho``` 
+1. Download ```Integracao_mqtt_pentaho``` 
 2. Extraia o arquivo baixado em * plugins / steps *  do diretório de sua distribuição Pentaho Data Integration.
 
 
