@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+	id="MQTTProducer"
+	iconfile="logo.png"
+	description="MQTT Producer"
+	tooltip="This plug-in allows sending messages via MQTT client"
+	category="Output"
+	classname="com.ruckuswireless.pentaho.mqtt.producer.MQTTProducerMeta">
+	
+	<libraries>
+		<library name="pentaho-mqtt-producer.jar"/>
+		<library name="lib/org.eclipse.paho.client.mqttv3-1.0.3-SNAPSHOT.jar"/>
+		<library name="lib/bcprov-jdk15on-1.48.jar"/>
+		<library name="lib/bcpkix-jdk15on-1.48.jar"/>
+	</libraries>
+    
+	<localized_category>
+		<category locale="en_US">Output</category>
+	</localized_category>
+	<localized_description>
+		<description locale="en_US">MQTT Producer</description>
+	</localized_description>
+	<localized_tooltip>
+		<tooltip locale="en_US">This plug-in allows sending messages via MQTT client</tooltip>
+	</localized_tooltip>
+</plugin>
